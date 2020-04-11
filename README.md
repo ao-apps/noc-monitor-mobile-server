@@ -24,9 +24,9 @@
 Server for [mobile access to Monitoring](https://github.com/aoindustries/noc-monitor-mobile).
 
 ## Project Links
-* [Project Home](https://aoindustries.com/noc-monitor-mobile-server/)
-* [Changelog](https://aoindustries.com/noc-monitor-mobile-server/changelog)
-* [API Docs](https://aoindustries.com/noc-monitor-mobile-server/apidocs/)
+* [Project Home](https://aoindustries.com/noc/monitor/mobile-server/)
+* [Changelog](https://aoindustries.com/noc/monitor/mobile-server/changelog)
+* [API Docs](https://aoindustries.com/noc/monitor/mobile-server/apidocs/)
 * [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/noc-monitor-mobile-server)
 * [GitHub](https://github.com/aoindustries/noc-monitor-mobile-server)
 
