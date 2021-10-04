@@ -1,6 +1,6 @@
 /*
  * noc-monitor-mobile-server - Server for mobile access to Monitoring.
- * Copyright (C) 2008-2012, 2020  AO Industries, Inc.
+ * Copyright (C) 2008-2012, 2020, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -88,8 +88,8 @@ public class MobileServer {
 		for(int c=0;c<numChildren;c++) writeNodeTree(out, children.get(c));
 	}
 
-	final private Monitor monitor;
-	final private String localAddress;
+	private final Monitor monitor;
+	private final String localAddress;
 
 	private final Object threadLock = new Object();
 	private Thread thread;
