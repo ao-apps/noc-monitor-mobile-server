@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [NOC](https://github.com/aoindustries/noc) / [Monitor](https://github.com/aoindustries/noc-monitor) / [Mobile Server](https://github.com/aoindustries/noc-monitor-mobile-server)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [NOC](https://github.com/ao-apps/noc) / [Monitor](https://github.com/ao-apps/noc-monitor) / [Mobile Server](https://github.com/ao-apps/noc-monitor-mobile-server)
 
 [![project: current stable](https://aoindustries.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://aoindustries.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -7,17 +7,17 @@
 [![semantic versioning: 2.0.0](https://aoindustries.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://aoindustries.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-Server for [mobile access to Monitoring](https://github.com/aoindustries/noc-monitor-mobile).
+Server for [mobile access to Monitoring](https://github.com/ao-apps/noc-monitor-mobile).
 
 ## Project Links
 * [Project Home](https://aoindustries.com/noc/monitor/mobile-server/)
 * [Changelog](https://aoindustries.com/noc/monitor/mobile-server/changelog)
 * [API Docs](https://aoindustries.com/noc/monitor/mobile-server/apidocs/)
 * [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/noc-monitor-mobile-server)
-* [GitHub](https://github.com/aoindustries/noc-monitor-mobile-server)
+* [GitHub](https://github.com/ao-apps/noc-monitor-mobile-server)
 
 ## Related Projects
-* [NOC Monitor Mobile](https://github.com/aoindustries/noc-monitor-mobile)
+* [NOC Monitor Mobile](https://github.com/ao-apps/noc-monitor-mobile)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
