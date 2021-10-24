@@ -178,10 +178,10 @@ public class MobileServer {
 										} finally {
 											ss.close();
 										}
-									} catch(ThreadDeath TD) {
-										throw TD;
-									} catch(Throwable T) {
-										logger.log(Level.SEVERE, null, T);
+									} catch(ThreadDeath td) {
+										throw td;
+									} catch(Throwable t) {
+										logger.log(Level.SEVERE, null, t);
 										try {
 											Thread.sleep(60000);
 										} catch(InterruptedException err) {
