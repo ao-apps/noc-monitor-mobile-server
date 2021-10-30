@@ -109,7 +109,7 @@ public class MobileServer {
 							final ExecutorService executorService = ExecutorService.newInstance();
 							try {
 								final Thread currentThread = Thread.currentThread();
-								while(true) {
+								while(!currentThread.isInterrupted()) {
 									synchronized(threadLock) {
 										if(currentThread!=thread) break;
 									}
@@ -123,7 +123,7 @@ public class MobileServer {
 											ss = factory.createServerSocket(PORT, 50, address);
 										}
 										try {
-											while(true) {
+											while(!currentThread.isInterrupted()) {
 												synchronized(threadLock) {
 													if(currentThread!=thread) break;
 												}
@@ -202,7 +202,7 @@ public class MobileServer {
 
 	public void stop() {
 		synchronized(threadLock) {
-			if(thread!=null) {
+			if(thread != null) {
 				thread.interrupt();
 				thread = null;
 			}
