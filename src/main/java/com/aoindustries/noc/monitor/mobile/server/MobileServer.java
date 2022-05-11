@@ -65,13 +65,26 @@ public class MobileServer {
     out.writeUTF(node.getLabel());
     AlertLevel alertLevel = node.getAlertLevel();
     switch (alertLevel) {
-      case NONE      : out.writeByte(0); break;
-      case LOW       : out.writeByte(1); break;
-      case MEDIUM    : out.writeByte(2); break;
-      case HIGH      : out.writeByte(3); break;
-      case CRITICAL  : out.writeByte(4); break;
-      case UNKNOWN   : out.writeByte(5); break;
-      default        : throw new AssertionError("Unexpected value for alertLevel: "+alertLevel);
+      case NONE:
+        out.writeByte(0);
+        break;
+      case LOW:
+        out.writeByte(1);
+        break;
+      case MEDIUM:
+        out.writeByte(2);
+        break;
+      case HIGH:
+        out.writeByte(3);
+        break;
+      case CRITICAL:
+        out.writeByte(4);
+        break;
+      case UNKNOWN:
+        out.writeByte(5);
+        break;
+      default:
+        throw new AssertionError("Unexpected value for alertLevel: "+alertLevel);
     }
     String alertMessage = node.getAlertMessage();
     if (alertMessage != null && alertMessage.length() == 0) {
