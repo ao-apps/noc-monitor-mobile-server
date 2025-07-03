@@ -13,7 +13,7 @@ Server for [mobile access to Monitoring](https://github.com/ao-apps/noc-monitor-
 * [Project Home](https://aoindustries.com/noc/monitor/mobile-server/)
 * [Changelog](https://aoindustries.com/noc/monitor/mobile-server/changelog)
 * [API Docs](https://aoindustries.com/noc/monitor/mobile-server/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoindustries/noc-monitor-mobile-server)
+* [Central Repository](https://central.sonatype.com/artifact/com.aoindustries/noc-monitor-mobile-server)
 * [GitHub](https://github.com/ao-apps/noc-monitor-mobile-server)
 
 ## Related Projects
